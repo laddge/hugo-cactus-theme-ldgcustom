@@ -21,7 +21,7 @@
 </article>
 
 <footer id="post-meta" class="clearfix">
-    {{ with .Site.Params.twitter }}<a href="https://twitter.com/{{ . }}">{{ end }}
+    {{ with .Site.Params.about }}<a href="{{ . }}">{{ end }}
     <img class="avatar" src="{{ "images/avatar.png" | absURL }}">
     <div>
         <span class="dark">{{ .Site.Params.name }}</span>
