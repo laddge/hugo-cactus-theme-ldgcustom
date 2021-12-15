@@ -2,7 +2,7 @@
     <section id="wrapper">
         <header id="header">
             <a href="{{ .Site.Params.about | absURL }}">
-                <img id="avatar" src="{{ "images/avatar.png" | absURL }}?{{ readFile "images/avatar.png" | md5 }}"/>
+                <img id="avatar" src="{{ "images/avatar.png" | absURL }}?{{ readFile "static/images/avatar.png" | md5 }}"/>
             </a>
             <h1>{{ .Site.Params.name }}</h1>
             <h2>{{ .Site.Params.bio | markdownify }}</h2>
