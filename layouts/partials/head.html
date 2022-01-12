@@ -28,7 +28,7 @@
 <!-- {{ template "_internal/twitter_cards.html" . }} -->
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://api.laddge.tk/blogimg?text={{ .Title }}&bgcolor=(30, 30, 30)&fgcolor=(255, 255, 255)&logourl=https://github.com/laddge.png"/>
+<meta name="twitter:image" content="https://api.laddge.net/blogimg?text={{ .Title }}&bgcolor=(30, 30, 30)&fgcolor=(255, 255, 255)&logourl=https://github.com/laddge.png"/>
 <meta name="twitter:title" content="{{ .Title }}"/>
 <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}"/>
 {{ with .Site.Params.twitter -}}
